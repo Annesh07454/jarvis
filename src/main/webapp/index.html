@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+body {
+background: linear-gradient(135deg, #0a0120, #4b0082);
+color: #fff;
+}
+.topbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%;
+}
+.brand {
+font-size: 28px;
+font-weight: bold;
+}
+.menu {
+display: flex;
+list-style: none;
+gap: 25px;
+}
+.menu li {
+color: #ccc;
+font-weight: 500;
+cursor: pointer;
+transition: 0.3s;
+}
+.menu li:hover {
+color: #fff;
+}
+.main-btn {
+background: #8b5cf6;
+color: #fff;
+padding: 10px 25px;
+border-radius: 25px;
+cursor: pointer;
+transition: 0.3s;
+display: inline-block;
+}
+.main-btn:hover {
+background: #a78bfa;
+}
+.home {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 80px 10%;
+}
+.home-text h4 {
+font-size: 20px;
+color: #bdbdbd;
+margin-bottom: 10px;
+}
+.home-text h1 {
+font-size: 55px;
+}
+.home-text span {
+color: #8b5cf6;
+}
+.home-text h3 {
+font-size: 25px;
+margin: 20px 0;
+font-weight: 400;
+}
+.box-img {
+width: 300px;
+height: 350px;
+border-radius: 15px;
+background: #8b5cf6;
+}
+.about-area {
+display: flex;
+align-items: center;
+gap: 50px;
+padding: 80px 10%;
+background: #1a0638;
+}
+.about-text h2 {
+font-size: 40px;
+margin-bottom: 15px;
+}
+.about-text span {
+color: #8b5cf6;
+}
+.about-text h4 {
+font-size: 22px;
+margin-bottom: 10px;
+}
+.about-text p {
+line-height: 1.6;
+margin-bottom: 20px;
+}
+.service-area {
+text-align: center;
+padding: 80px 10%;
+}
+.service-area h2 {
+font-size: 40px;
+margin-bottom: 40px;
+}
+.service-area span {
+color: #8b5cf6;
+}
+.boxes {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+}
+.box {
+background: #24074a;
+padding: 30px;
+border-radius: 15px;
+width: 280px;
+transition: 0.3s;
+}
+.box:hover {
+transform: translateY(-10px);
+background: #320b6a;
+}
+.box h3 {
+color: #8b5cf6;
+margin-bottom: 10px;
+}
+.feedback {
+text-align: center;
+padding: 80px 10%;
+background: #1a0638;
+}
+.feedback p {
+font-style: italic;
+margin-bottom: 15px;
+}
+.contact-area {
+text-align: center;
+padding: 80px 10%;
+}
+.contact-area span {
+color: #8b5cf6;
+}
+.footer {
+text-align: center;
+padding: 20px;
+background: #0a0120;
+color: #ccc;
+font-size: 14px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="topbar">
+<h2 class="brand">MyPortfolio</h2>
+<ul class="menu">
+<li>Home</li>
+<li>About</li>
+<li>Work</li>
+<li>Services</li>
+<li>Contact</li>
+</ul>
+<div class="main-btn">Download CV</div>
+</div>
+</header>
+<section class="home">
+<div class="home-text">
+<h4>Hello, I am</h4>
+<h1>Anneshagoud <span>Patil</span></h1>
+<h3>Frontend Developer</h3>
+<div class="main-btn">Hire Me</div>
+</div>
+<!-- <div class="home-photo">
+<div class="box-img" >
+    <img src="./photo.jpg" alt="">
+</div>
+</div> -->
+</section>
+<section class="about-area">
+<div class="about-photo">
+<div class=""></div>
+</div>
+<div class="about-text">
+<h2>About <span>Me</span></h2>
+<h4>I love creating amazing websites!</h4>
+<p>I’m a web developer who enjoys building clean, responsive, and creative websites using HTML, CSS, and JavaScript.</p>
+<div class="main-btn">Know More</div>
+</div>
+</section>
+<section class="service-area">
+<h2>My <span>Services</span></h2>
+<div class="boxes">
+<div class="box">
+<h3>Web Design</h3>
+<p>Designing simple and responsive web layouts that look great on all devices.</p>
+</div>
+<div class="box">
+<h3>UI/UX Design</h3>
+<p>Creating beautiful designs that enhance user experience and engagement.</p>
+</div>
+<div class="box">
+<h3>SEO Optimization</h3>
+<p>Improving website ranking and visibility across search engines.</p>
+</div>
+</div>
+</section>
+<section class="feedback">
+<h2>Client <span>Feedback</span></h2>
+<p>"Rohan made a great website for our brand. Highly skilled and professional!"</p>
+<h4>- Neha Patel</h4>
+</section>
+<section class="contact-area">
+<h2>Contact <span>Me</span></h2>
+<p>Email: anneshagoudpatil@gmail.com</p>
+<p>Phone: +91 6363253589</p>
+<div class="main-btn">Send Message</div>
+</section>
+<footer class="footer">
+<p>© 2025 Rohan Sharma. All rights reserved.</p>
+</footer>
+</body>
+</html>
